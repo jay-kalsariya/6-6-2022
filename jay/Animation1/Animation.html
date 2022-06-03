@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: cornflowerblue;
+        }
+        div{
+            width: 200px;
+            height: 100px;
+            background-color: rgb(224, 82, 16);
+            position: relative;
+            animation-name: test;
+            animation-duration: 2s;
+            animation-delay: 2s;
+            animation-iteration-count:2.5;
+            animation-direction: alternate;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes test{
+            From{background-color: brown; }
+            To{background-color: darkgreen; }
+            0%{ background-color: red; left: 300px; top:450px}
+            25%{background-color: burlywood; left:300px; top:200px;}
+            50%{background-color: blueviolet;left: 100px; top:250px;}
+            100%{background-color: yellowgreen; left: 150px;top: 300px;}
+        }
+        h1{
+            text-align: center;
+          background-color: brown;
+          border-radius: 10%;
+          text-decoration-color: beige;
+          border: 5px solid greenyellow;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<body>
+    <h1>Animation</h1>
+    <div></div>
+</body>
+</html>

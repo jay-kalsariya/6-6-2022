@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+ background-color: coral; 
+}
+header{
+    background-color: blueviolet;
+    color: aliceblue;
+    height: 70px;
+    text-align: center;
+
+}
+.contaner{
+    text-align: center;
+    background-color: aqua;
+   
+
+}
+ 
+li{
+    display: inline-flex;
+    margin: 2px;
+    padding: 4px;
+    width: 80px;
+    
+}
+p.test {
+    border: 2px solid rgb(15, 230, 69);
+    outline-style: solid;
+    outline-color: red;
+  }
+ 
+  

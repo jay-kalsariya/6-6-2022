@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: burlywood;
+}
+h2{
+    text-align: center;
+    border: 2px solid blue;
+}
+div{
+border: 2px solid;
+padding: 20px;
+width: 300px;
+resize: both;
+overflow:auto;
+}
+div.ex1{
+    margin: 20px;
+    border: 2px solid black;
+    outline: 4px solid gold;
+    outline-offset: 5px;
+}
+
